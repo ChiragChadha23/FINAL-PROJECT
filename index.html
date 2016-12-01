@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>lending library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>the library</h1><br>
+    <p>search for author by name</p><br>
+    <input id="lesson" ><br><br>
+    <button type="button" onclick="less()">search</button><br>
+    <p id='result'></p>
+
+    <h2>add a book to the library</h2><br>
+    <p> enter the name of the author </p><br>
+    <input id="addBook"><br>
+    <p> enter title of the book</p><br>
+     <input id="title"><br><br><br>
+    <button type="button" onclick="addBook()">add</button><br>
+
+    <h2>books currently in the library</h2>
+    <button type="button" onclick="showAllBooks()">show books</button><br>
+    <ol id="allTheBooks">
+
+    </ol>
+    <h2>library registration</h2><br>
+    <p> Enter student name </p><br>
+    <input id="studentname"><br>
+    <p> Enter email</p><br>
+     <input id="studentemail"><br><br>
+    <button type="button" onclick="student()">add</button><br><br>
+  </main>
+  <footer>
+    <p>wmdd 4820 2016</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
